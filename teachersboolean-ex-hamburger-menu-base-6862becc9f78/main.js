@@ -1,4 +1,4 @@
-let element = document.querySelector('header-right > a');
+let solution = document.querySelector('header-right > a');
 
 // solution.addEventListener('click', 
 //  function add() {
@@ -8,7 +8,7 @@ let element = document.querySelector('header-right > a');
 
 
 
-element.addEventListener("click", function(){
+solution.addEventListener("click", function(){
     let elementList = document.getElementsByClassName("hamburger-menu");
     elementList.style.display = 'inline-block';
   });
