@@ -1,6 +1,6 @@
-let solution = document.querySelector('.header-right > a');
+let openingButton = document.querySelector('.header-right > a');
 
-solution.addEventListener("click", function(){
+openingButton.addEventListener("click", function(){
     let elementList = document.querySelector(".hamburger-menu");
     elementList.style.display = 'inline-block';
   });
